@@ -26,3 +26,7 @@
   font-weight: 300;
   text-decoration: none;
 }
+
+.profile-container a:hover {
+  color: black;
+}

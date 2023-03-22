@@ -1,0 +1,19 @@
+.icon-list-container {
+  display: flex;
+}
+
+.icon-list {
+  display: flex;
+  gap: 1.875rem;
+  list-style: none;
+}
+
+.icon-list-item {
+  /* display: flex; */
+  line-height: 0;
+}
+
+.icon-list-item img:hover {
+  transition: 0.2s;
+  filter: saturate(6.5);
+}
