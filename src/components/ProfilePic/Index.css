@@ -1,0 +1,28 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.profile-img {
+  height: 200px;
+  width: auto;
+}
+
+.profile-container::before {
+  display: flex;
+  content: "";
+  width: 210px;
+  height: 210px;
+  border: 2px solid #bb99dd;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+}
+
+.profile-container a {
+  font-weight: 300;
+  text-decoration: none;
+}

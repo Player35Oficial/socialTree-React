@@ -1,8 +1,13 @@
+import ProfilePic from "./components/ProfilePic/Index";
+import "./App.css";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Projeto Zero</h1>
-    </div>
+    <>
+      <div className="App">
+        <ProfilePic />
+      </div>
+    </>
   );
 }
 
